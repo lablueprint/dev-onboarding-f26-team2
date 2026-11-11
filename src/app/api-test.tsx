@@ -25,30 +25,10 @@ export default function ApiTestScreen() {
     async function load() {
       try {
         const response = await fetch(`${API_URL}/movies${params}`);
-        if (!response.ok) {
-          let message = `Request failed (${response.status})`;
-          try {
-            const body: unknown = await response.json();
-            if (
-              body &&
-              typeof body === 'object' &&
-              'error' in body &&
-              typeof body.error === 'string'
-            ) {
-              message = body.error;
-            }
-          } catch {
-            // The error body was not JSON.
-          }
-          throw new Error(message);
-        }
-
-        const data: unknown = await response.json();
-        if (!Array.isArray(data)) {
-          throw new Error('Unexpected response from the server');
-        }
+        if (!response.ok) throw new Error(`Request failed (${response.status})`);
+        const data: Movie[] = await response.json();
         if (cancelled) return;
-        setMovies(data as Movie[]);
+        setMovies(data);
         setError(null);
       } catch (e) {
         if (cancelled) return;

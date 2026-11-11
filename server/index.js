@@ -1,9 +1,17 @@
 const cors = require('cors');
 const express = require('express');
+const fs = require('fs');
+const path = require('path');
 
-const { loadMovies } = require('./movies');
+const seedPath = path.join(__dirname, 'data', 'movies.seed.json');
+const dataPath = path.join(__dirname, 'data', 'movies.json');
 
-const movies = loadMovies();
+// movies.json is gitignored. Create it from the seed on first start.
+if (!fs.existsSync(dataPath)) {
+  fs.copyFileSync(seedPath, dataPath);
+}
+const movies = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+
 const app = express();
 
 app.use(cors());
