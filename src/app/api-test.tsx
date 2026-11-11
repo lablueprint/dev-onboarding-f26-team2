@@ -87,6 +87,7 @@ export default function ApiTestScreen() {
       <ScrollView
         horizontal
         showsHorizontalScrollIndicator={false}
+        style={styles.genreScroll}
         contentContainerStyle={styles.genres}
       >
         <GenreButton label="All" selected={genre === null} onPress={() => refetch(null)} />
@@ -164,7 +165,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
+  genreScroll: {
+    flexGrow: 0,
+  },
   genres: {
+    alignItems: 'center',
     gap: Spacing.two,
     padding: Spacing.three,
   },
