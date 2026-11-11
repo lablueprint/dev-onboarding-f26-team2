@@ -1,0 +1,231 @@
+[
+  {
+    "id": "1",
+    "title": "Starfall",
+    "genre": "Sci-Fi",
+    "year": 2024,
+    "runtimeMinutes": 142,
+    "director": "Lena Ortiz",
+    "cast": [
+      "Marcus Hale",
+      "Priya Nand",
+      "Owen Clarke"
+    ],
+    "rating": 4.6,
+    "posterUrl": "https://picsum.photos/seed/starfall/400/600",
+    "synopsis": "When a dying star starts sending signals toward Earth, a burnt-out astrophysicist joins a last-minute mission to figure out what it wants before it collapses."
+  },
+  {
+    "id": "2",
+    "title": "The Last Starship",
+    "genre": "Sci-Fi",
+    "year": 2019,
+    "runtimeMinutes": 128,
+    "director": "Tomasz Wren",
+    "cast": [
+      "Ada Kim",
+      "Rafael Soto"
+    ],
+    "rating": 4.1,
+    "posterUrl": "https://picsum.photos/seed/last-starship/400/600",
+    "synopsis": "The crew of humanity's final colony ship wakes up 200 years early and has to decide whether to keep going or turn back."
+  },
+  {
+    "id": "3",
+    "title": "Paper Lanterns",
+    "genre": "Animation",
+    "year": 2022,
+    "runtimeMinutes": 96,
+    "director": "Mei Takahashi",
+    "cast": [
+      "Hana Ito",
+      "Ben Ruiz",
+      "Grace Liu"
+    ],
+    "rating": 4.8,
+    "posterUrl": "https://picsum.photos/seed/paper-lanterns/400/600",
+    "synopsis": "A girl who folds paper animals for her grandmother's shop discovers they come alive on the night of the lantern festival."
+  },
+  {
+    "id": "4",
+    "title": "Overtime",
+    "genre": "Comedy",
+    "year": 2021,
+    "runtimeMinutes": 104,
+    "director": "Chris Delaney",
+    "cast": [
+      "Jamal Price",
+      "Tess Morgan"
+    ],
+    "rating": 3.7,
+    "posterUrl": "https://picsum.photos/seed/overtime/400/600",
+    "synopsis": "Two coworkers who can't stand each other get locked in the office over a holiday weekend and have to work together to escape the building's overly smart security system."
+  },
+  {
+    "id": "5",
+    "title": "The Quiet House",
+    "genre": "Horror",
+    "year": 2023,
+    "runtimeMinutes": 99,
+    "director": "Sam Okafor",
+    "cast": [
+      "Nora Blake",
+      "Elijah Grant"
+    ],
+    "rating": 4,
+    "posterUrl": "https://picsum.photos/seed/quiet-house/400/600",
+    "synopsis": "A family moves into a house where every sound echoes back a few seconds late, and the echoes start saying things nobody said."
+  },
+  {
+    "id": "6",
+    "title": "Under the Same Sky",
+    "genre": "Romance",
+    "year": 2020,
+    "runtimeMinutes": 117,
+    "director": "Isabel Moreno",
+    "cast": [
+      "Lucas Bell",
+      "Amara Singh"
+    ],
+    "rating": 4.2,
+    "posterUrl": "https://picsum.photos/seed/same-sky/400/600",
+    "synopsis": "Two strangers who keep missing each other at the same train station over ten years finally end up on the same train."
+  },
+  {
+    "id": "7",
+    "title": "Redline",
+    "genre": "Action",
+    "year": 2018,
+    "runtimeMinutes": 112,
+    "director": "Victor Hayes",
+    "cast": [
+      "Dante Cruz",
+      "Kira Novak",
+      "Sean Park"
+    ],
+    "rating": 3.8,
+    "posterUrl": "https://picsum.photos/seed/redline/400/600",
+    "synopsis": "A former getaway driver is pulled back in for one last job across three countries in a single night."
+  },
+  {
+    "id": "8",
+    "title": "Deep Blue Below",
+    "genre": "Documentary",
+    "year": 2022,
+    "runtimeMinutes": 88,
+    "director": "Ruth Adebayo",
+    "cast": [
+      "Ruth Adebayo"
+    ],
+    "rating": 4.5,
+    "posterUrl": "https://picsum.photos/seed/deep-blue/400/600",
+    "synopsis": "A team of marine biologists spends a year filming creatures that live more than 3,000 meters below the surface."
+  },
+  {
+    "id": "9",
+    "title": "Small Town Static",
+    "genre": "Drama",
+    "year": 2017,
+    "runtimeMinutes": 124,
+    "director": "Ellen Shaw",
+    "cast": [
+      "Mason Reid",
+      "Clara Voss",
+      "Eli Turner"
+    ],
+    "rating": 4.3,
+    "posterUrl": "https://picsum.photos/seed/small-town-static/400/600",
+    "synopsis": "A late-night radio host in a dying factory town starts taking calls that turn the whole community upside down."
+  },
+  {
+    "id": "10",
+    "title": "Pixel Pals",
+    "genre": "Animation",
+    "year": 2025,
+    "runtimeMinutes": 92,
+    "director": "Andre Silva",
+    "cast": [
+      "Mia Chen",
+      "Jonah Fields"
+    ],
+    "rating": 3.9,
+    "posterUrl": "https://picsum.photos/seed/pixel-pals/400/600",
+    "synopsis": "Characters from an old arcade game escape into the internet and have to make it home before the arcade closes for good."
+  },
+  {
+    "id": "11",
+    "title": "Ironclad",
+    "genre": "Action",
+    "year": 2023,
+    "runtimeMinutes": 131,
+    "director": "Victor Hayes",
+    "cast": [
+      "Kira Novak",
+      "Marcus Hale"
+    ],
+    "rating": 3.6,
+    "posterUrl": "https://picsum.photos/seed/ironclad/400/600",
+    "synopsis": "A bodyguard has to protect a witness during a city-wide blackout when every security system goes dark."
+  },
+  {
+    "id": "12",
+    "title": "Best Man Down",
+    "genre": "Comedy",
+    "year": 2019,
+    "runtimeMinutes": 101,
+    "director": "Chris Delaney",
+    "cast": [
+      "Tess Morgan",
+      "Ravi Kapoor",
+      "Owen Clarke"
+    ],
+    "rating": 3.4,
+    "posterUrl": "https://picsum.photos/seed/best-man-down/400/600",
+    "synopsis": "The best man loses the groom 48 hours before the wedding and recruits the bride's grandma to help find him."
+  },
+  {
+    "id": "13",
+    "title": "Letters to June",
+    "genre": "Drama",
+    "year": 2021,
+    "runtimeMinutes": 119,
+    "director": "Ellen Shaw",
+    "cast": [
+      "Amara Singh",
+      "Henry Cole"
+    ],
+    "rating": 4.4,
+    "posterUrl": "https://picsum.photos/seed/letters-to-june/400/600",
+    "synopsis": "After her mother passes away, a woman finds a box of unsent letters and travels across the country to deliver them."
+  },
+  {
+    "id": "14",
+    "title": "Night Shift",
+    "genre": "Horror",
+    "year": 2020,
+    "runtimeMinutes": 94,
+    "director": "Sam Okafor",
+    "cast": [
+      "Elijah Grant",
+      "Zoe Hart"
+    ],
+    "rating": 3.5,
+    "posterUrl": "https://picsum.photos/seed/night-shift/400/600",
+    "synopsis": "A hospital night nurse notices that patients on the empty fourth floor keep calling for help."
+  },
+  {
+    "id": "15",
+    "title": "Beyond the Stars",
+    "genre": "Documentary",
+    "year": 2024,
+    "runtimeMinutes": 85,
+    "director": "Ruth Adebayo",
+    "cast": [
+      "Ruth Adebayo",
+      "Dr. Ken Mori"
+    ],
+    "rating": 4.2,
+    "posterUrl": "https://picsum.photos/seed/beyond-the-stars/400/600",
+    "synopsis": "The story of the volunteer astronomers who discovered a new comet using telescopes they built in their backyards."
+  }
+]
