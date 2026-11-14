@@ -13,6 +13,9 @@ export function filterMovies(
   return movies.filter((movie) => {
     const titleMatch = movie.title.toLowerCase().includes(query);
     const directorMatch = movie.director.toLowerCase().includes(query);
+    //sprint2
+    // const genreMatch = movie.genre.toLowerCase().includes(query);
     return titleMatch || directorMatch;
   });
 }
+
