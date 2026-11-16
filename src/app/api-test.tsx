@@ -1,3 +1,4 @@
+import { Stack } from 'expo-router';
 import { useEffect, useState } from 'react';
 import { ActivityIndicator, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 
@@ -64,6 +65,7 @@ export default function ApiTestScreen() {
 
   return (
     <View style={styles.container}>
+      <Stack.Screen options={{ headerTransparent: false }} />
       <ScrollView
         horizontal
         showsHorizontalScrollIndicator={false}
