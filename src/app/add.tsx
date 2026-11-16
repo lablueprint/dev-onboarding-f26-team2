@@ -1,5 +1,5 @@
 import { StyleSheet, View } from "react-native";
-import { ThemedText } from '@/components/themed-text';
+import { router } from 'expo-router';
 
 import { MovieForm } from "@/components/MovieForm";
 import { Spacing } from "@/constants/theme";
@@ -11,6 +11,7 @@ export default function AddMovieScreen() {
       <MovieForm
         onSubmit={async (values) => {
           await addMovie(values);
+          router.back()
         }}
       />
     </View>
