@@ -1,13 +1,19 @@
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View } from "react-native";
+import { router } from 'expo-router';
 
-import { ThemedText } from '@/components/themed-text';
-import { Spacing } from '@/constants/theme';
-
+import { MovieForm } from "@/components/MovieForm";
+import { Spacing } from "@/constants/theme";
+import { addMovie } from "@/services/movies";
 // TODO(Isaiah, Sprint 1): render <MovieForm />, call addMovie() on submit, then router.back()
 export default function AddMovieScreen() {
   return (
     <View style={styles.container}>
-      <ThemedText>Add movie (coming soon)</ThemedText>
+      <MovieForm
+        onSubmit={async (values) => {
+          await addMovie(values);
+          router.back()
+        }}
+      />
     </View>
   );
 }
